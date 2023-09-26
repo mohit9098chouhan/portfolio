@@ -1,0 +1,126 @@
+.photo{
+    width: 250px;
+    border-radius: 50%;
+    margin-top:0px;
+   
+    /* border-top:100px; */
+}
+body{
+    background-color: rgb(54, 21, 21);
+}
+.heading{
+    color:rgb(50, 29, 29);
+    float: right;
+    margin-right: 200px;
+    margin-top: 190px;
+
+}
+#text{
+    float: right;
+    margin-bottom: 50px;
+}
+
+.const{
+     margin-left: 680px;
+}
+.det{
+    height: 290px;
+    width: 790px;
+    background-color: rgb(115, 74, 94);
+    display: flex;
+}
+.information{
+    width: 50%;
+    float: left;
+    color: aliceblue;
+    padding: 20px;
+    border: 2px solid rgb(11, 11, 11);
+}
+
+.form{
+    background-color: rgb(7, 2, 61);
+    background: linear-gradient(0deg(green,blue,red));
+    /* opacity: 0.25; */
+}
+.dev2{
+    margin: 20px;
+    height: 300px;
+    width: 750px;
+    background-color: rgb(40, 9, 4);
+    display: flex;
+    border: 2px solid rgb(19, 16, 16);
+}
+.dtwo{
+    width: 50%;
+    float: left;
+    padding: 20px;
+    color: aliceblue;
+    border: 2px solid rgb(19, 1, 1);
+}
+.bar{
+   
+   display: flex;
+   height: 50px;
+   width: 100%;
+   gap: 20px;
+   font-size:large;
+   align-items: center;
+   border: 10px solid rgb(251, 244, 237);
+   position: sticky;
+ 
+}
+/* .bar li a{
+height: 50px;
+color: aliceblue;
+width: 19%;
+align-items: first baseline;
+text-decoration: none; */
+/* } */
+.heading{
+    color: rgb(234, 106, 8);
+    font-size: 70px;
+   
+}
+#ul{
+    color: rgb(234, 106, 8) ;
+}
+.headtxt{
+    font-size: 30px;
+    color: rgb(234, 106, 8) ;
+    margin-left: 300px;
+    padding-top: 100px;
+   
+}
+#txt{
+    color: aliceblue;
+    margin-left: 20px;
+}
+.footer{
+   height: 400px;
+   width: 100%;
+   margin-top: 400px;
+   background-color:  rgb(2, 33, 51);
+}
+.input{
+    width: 90%;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+#btn{
+    width: 200px;
+    height: 60px;
+    background-color: rgb(157, 238, 116);
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#data{
+    background-color: rgb(49, 58, 62);
+    color: rgb(123, 124, 124);
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
